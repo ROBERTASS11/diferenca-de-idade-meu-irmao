@@ -1,0 +1,24 @@
+<meta charset="UTF-8">
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function exibeTitulo(titulo) {
+        document.write("<h1>" + titulo + "</h1>");
+        pulaLinha();
+    }
+
+    function exibeParagrafo(paragrafo) {
+        document.write("<p>" + paragrafo + "</p>");
+        pulaLinha();
+    }
+    var idadeTadeu = 44;
+    var idadeRoberta  = 43;
+    var diferençaDeIdade = (idadeRoberta - idadeTadeu)
+
+    exibeTitulo("Nossa diferença de idade é :");
+    exibeParagrafo("Diferença De Idade =  "+ Math.round (diferençaDeIdade));
+
+    </script>
